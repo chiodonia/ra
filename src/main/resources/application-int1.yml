@@ -1,0 +1,8 @@
+epof:
+  backend:
+    delivery-processor:
+      client-id: ${SYSTEM_INSTANCE}.DeliveryProcessor
+
+spring:
+  application:
+    name: ${SYSTEM_INSTANCE}.DeliveryProcessor
